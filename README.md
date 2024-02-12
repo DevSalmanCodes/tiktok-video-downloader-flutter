@@ -10,7 +10,7 @@ A TikTok video downloader application built with Flutter. This app allows users 
 
 ## Getting Started:
 1. Clone the repository: `https://github.com/DevSalmanCodes/tiktok-video-downloader-flutter`
-2. Navigate to the project directory: `cd flutter-tiktok-downloader`
+2. Navigate to the project directory: `cd tiktok-video-downloader-flutter`
 3. Follow the setup instructions in [README.md](./README.md).
 
 ## Contribute:
