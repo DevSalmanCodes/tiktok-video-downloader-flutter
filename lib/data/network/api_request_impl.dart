@@ -11,11 +11,8 @@ class ApiRequestImpl extends BaseApiRequest {
   Future<dynamic> getGetApiRequest(String url) async {
     dynamic jsonResult;
     try {
-      final res =
-          await http.get(Uri.parse(url),headers: {
-    'X-RapidAPI-Key': '82f246812cmsh4f7a7311e5cfc6dp1d6849jsn65494a8b8eb0',
-    'X-RapidAPI-Host': 'tiktok-download-video1.p.rapidapi.com'
-  });
+            final res = await http.get(Uri.parse(url));
+
       jsonResult = checkResponse(res);
     } on SocketException {
       throw FetchDataException("Error while communicating with server");
